@@ -1,4 +1,4 @@
-# Dashboard, Advanced Validation, Bulk Operations & CSV Export — Pertemuan 12
+# Pertemuan 12 - Dashboard, Advanced Validation, Bulk Operations & CSV Export
 
 **Nama:** Puspa Dwi Setyorini  
 **NIM:** 60324003  
@@ -25,10 +25,10 @@ Mengembangkan sistem validasi berlapis dan kondisional pada form tambah data buk
 ### 2. Hasil Implementasi Validasi Form
 
 * **Kondisi Data Input Tidak Valid:** Tampilan antarmuka ketika pengguna memasukkan data yang melanggar aturan format kode buku, logika kesesuaian bahasa kategori programming, serta pembatasan stok buku lama. Komponen form otomatis merespons dengan garis tepi merah (*is-invalid*) dan memunculkan instruksi perbaikan yang interaktif.
-![Input Tidak Valid](screenshot/tidak_valid.png)
+![Input Tidak Valid](screenshoot/tidak_valid.png)
 
 * **Kondisi Form Siap Dikirim (Valid):** Tampilan ketika seluruh kolom input telah memenuhi kriteria validasi backend yang ditetapkan dan form siap disimpan ke dalam database.
-![Input Valid](screenshot/input_valid.png)
+![Input Valid](screenshoot/input_valid.png)
 
 ---
 
@@ -38,7 +38,7 @@ Menyediakan fitur efisiensi pengelolaan data melalui operasi hapus data massal (
 
 ### 2. Hasil Implementasi Fitur Bulk Delete
 Menampilkan komponen checkbox penanda pada sisi paling kiri tiap kartu buku yang telah dipertegas dengan garis pembatas solid, lengkap dengan tombol aksi "Hapus Buku Terpilih" di bagian atas daftar.
-![Fitur Bulk Delete](screenshot/bulk_delete.jpeg)
+![Fitur Bulk Delete](screenshoot/bulk_delete.jpeg)
 
 ---
 
@@ -48,7 +48,7 @@ Menyediakan fitur utilitas laporan instan berupa fungsi ekspor data buku ke dala
 
 ### 2. Hasil Implementasi Tombol Export CSV
 Tombol aksi **Export CSV** telah berhasil ditempatkan secara ergonomis di pojok kanan atas halaman daftar utama, berdampingan langsung dengan tombol **Tambah Buku** untuk mempermudah aksesibilitas pengguna.
-![Tombol Export CSV](screenshot/button_csv.png)
+![Tombol Export CSV](screenshoot/button_csv.png)
 
 * **Hasil Unduhan Dokumen:** Lembar data yang berhasil diunduh memuat seluruh atribut lengkap buku mulai dari `kode_buku`, `judul`, `kategori`, `pengarang`, `penerbit`, `tahun_terbit`, `isbn`, `harga`, `stok`, `deskripsi`, hingga `bahasa`.
-![Hasil Validasi Data CSV](screenshot/hasil_valid.png)
+![Hasil Validasi Data CSV](screenshoot/hasil_valid.png)
