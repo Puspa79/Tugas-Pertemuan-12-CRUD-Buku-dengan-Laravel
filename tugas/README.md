@@ -30,6 +30,9 @@ Mengembangkan sistem validasi berlapis dan kondisional pada form tambah data buk
 * **Kondisi Form Siap Dikirim (Valid):** Tampilan ketika seluruh kolom input telah memenuhi kriteria validasi backend yang ditetapkan dan form siap disimpan ke dalam database.
 ![Input Valid](screenshoot/input_valid.png)
 
+* **Hasil Input Valid:**
+![Hasil Validasi Data CSV](screenshoot/hasil_inputvalid.png)
+
 ---
 
 ## TUGAS 2 - Bulk Delete Operations (Hapus Massal)
@@ -49,6 +52,3 @@ Menyediakan fitur utilitas laporan instan berupa fungsi ekspor data buku ke dala
 ### 2. Hasil Implementasi Tombol Export CSV
 Tombol aksi **Export CSV** telah berhasil ditempatkan secara ergonomis di pojok kanan atas halaman daftar utama, berdampingan langsung dengan tombol **Tambah Buku** untuk mempermudah aksesibilitas pengguna.
 ![Tombol Export CSV](screenshoot/button_csv.png)
-
-* **Hasil Unduhan Dokumen:** Lembar data yang berhasil diunduh memuat seluruh atribut lengkap buku mulai dari `kode_buku`, `judul`, `kategori`, `pengarang`, `penerbit`, `tahun_terbit`, `isbn`, `harga`, `stok`, `deskripsi`, hingga `bahasa`.
-![Hasil Validasi Data CSV](screenshoot/hasil_valid.png)

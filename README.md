@@ -31,7 +31,7 @@ Mengembangkan sistem validasi berlapis dan kondisional pada form tambah data buk
 ![Input Valid](screenshoot/input_valid.png)
 
 * **Hasil Input Valid:**
-![Hasil Validasi Data CSV](screenshoot/hasil_valid.png)
+![Hasil Validasi Data CSV](screenshoot/hasil_inputvalid.png)
 
 ---
 
